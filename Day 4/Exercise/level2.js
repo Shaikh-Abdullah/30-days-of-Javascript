@@ -14,13 +14,17 @@
 
 // 2.Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
 let input = prompt("Enter Month");
-if (input === "September" || "October" || "November") {
+if (input === "September" || input === "October" || input === "November") {
   console.log("The season is Autumn");
-} else if (input === "December" || "January" || "February") {
+} else if (
+  input === "December" ||
+  input === "January" ||
+  input === "February"
+) {
   console.log("The season is Winter");
-} else if (input === "March" || "April" || "May") {
+} else if (input === "March" || input === "April" || input === "May") {
   console.log("The season is Spring");
-} else if (input === "June" || "July" || "August") {
+} else if (input === "June" || input === "July" || input === "August") {
   console.log("The season is Summer");
 } else {
   console.log(`${input} is not a season`);
