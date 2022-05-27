@@ -77,3 +77,26 @@ console.log(itCompanies.sort());
 
 // 16. Reverse the array using reverse() method
 console.log(itCompanies.reverse());
+
+// 17. Slice out the first 3 companies from the array
+console.log(itCompanies.slice(0, 3));
+
+// 18.Slice out the last 3 companies from the array
+console.log(itCompanies.slice(4));
+
+// 19.Slice out the middle IT company or companies from the array
+console.log(itCompanies.slice(3, 4));
+
+// 20. Remove the first IT company from the array
+console.log(itCompanies.shift());
+console.log(itCompanies);
+
+// 21.Remove the middle IT company or companies from the array
+console.log(itCompanies.splice(3, 1));
+console.log(itCompanies);
+
+// 22. Remove the last IT company from the array
+console.log(itCompanies.pop());
+
+// 23. Remove all IT companies
+console.log(itCompanies.splice(0, 0));
