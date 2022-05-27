@@ -36,22 +36,22 @@
 // lastFruit = fruits[lastIndex];
 // console.log(lastFruit);
 
-// const countries = [
-//   "Albania",
-//   "Bolivia",
-//   "Canada",
-//   "Denmark",
-//   "Ethiopia",
-//   "Finland",
-//   "Germany",
-//   "Hungary",
-//   "Ireland",
-//   "Japan",
-//   "Kenya",
-// ];
-// console.log(countries);
-// console.log(countries.length);
-// console.log(countries[5]);
+const countries = [
+  "Albania",
+  "Bolivia",
+  "Canada",
+  "Denmark",
+  "Ethiopia",
+  "Finland",
+  "Germany",
+  "Hungary",
+  "Ireland",
+  "Japan",
+  "Kenya",
+];
+console.log(countries);
+console.log(countries.length);
+console.log(countries[5]);
 
-// let lastOne = countries.length - 1;
-// console.log(countries[lastOne]);
+let lastOne = countries.length - 1;
+console.log(countries[lastOne]);
