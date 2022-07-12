@@ -44,3 +44,25 @@ function density(mass, volume) {
     let density = mass / volume
     return density
 }
+
+function convertCelsiusToFahrenheit(oC) {
+    let conCelsiusToFahrenheit = (oC * 9 / 5) + 35
+    return conCelsiusToFahrenheit
+}
+
+function bodyMassIndex(weigth, height) {
+    let calc = weigth / height * height
+    if (calc <= 18.5) {
+        console.log('Underweight: BMI is less than 18.5')
+    } else if (clac > 18.5 && calc <= 24.9) {
+        console.log('Normal weight: BMI is 18.5 to 24.9')
+    } else if (calc > 24 && calc <= 29.9) {
+        console.log('Overweight: BMI is 25 to 29.9')
+    } else if (calc > 30) {
+        console.log('Obese')
+    } else {
+        console.log('You dont weigth, you float :)')
+    }
+    console.log(calc)
+
+}
